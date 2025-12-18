@@ -1,3 +1,9 @@
+"""
+Real-time face detection using the PC’s built-in webcam with OpenCV Haar Cascades.
+The largest detected face is tracked, and the detection confidence is stabilized using time-based throttling (zero-order hold) instead of averaging.
+Press q to exit.
+"""
+
 import cv2
 import numpy as np
 import time
